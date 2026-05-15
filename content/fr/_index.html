@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/"
 slug: ""
 date: 2026-05-15T10:34:42+02:00
-lastmod: 2026-05-15T10:34:46+02:00
+lastmod: 2026-05-15T15:59:52+02:00
 meta:
   hugo:
     permalink: "/"
@@ -18,7 +18,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-05-15T10:34:42+02:00
-    updated_at: 2026-05-15T10:34:46+02:00
+    updated_at: 2026-05-15T15:59:52+02:00
     published_at: 2026-05-15T10:34:42+02:00
 search:
   id: "3ebb5f69-f017-4e6f-beeb-8aaf998bc97a"
@@ -29,7 +29,8 @@ search:
   title: >-
     Accueil
 
-
+  body: >-
+    <p>Un super titre  <br>Du texte <br>Des notes</p>
 
 breadcrumbs:
   - title: >-
@@ -78,9 +79,59 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: projects
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      mode: selection
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+
+      quantity: 0
+
+  - kind: block
+    template: chapter
+    title: >-
+      Un super titre
+    slug: >-
+      un-super-titre
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Un super titre
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Du texte</p>
+      notes: >-
+        <p>Des notes</p>
+
+
+
+
+
 
 ---
